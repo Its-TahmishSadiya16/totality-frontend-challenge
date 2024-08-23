@@ -1,0 +1,38 @@
+.property-card {
+    width: 300px; /* Ensure all cards have the same width */
+    margin: 15px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 10px; /* Rounded corners */
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+    overflow: hidden; /* Clip overflowing content */
+}
+
+.property-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15); /* Slightly elevate the card on hover */
+}
+
+.property-image {
+    height: 200px;
+    object-fit: cover; /* Make sure the image covers the card without stretching */
+}
+
+.property-card .property-price {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: #007bff; /* Use a consistent color for price */
+    margin-top: 10px;
+}
+
+.property-card button {
+    width: 100%; /* Make the button full width */
+    background-color: #007bff; /* Consistent button color */
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.property-card button:hover {
+    background-color: #0056b3; /* Darken the button on hover */
+}

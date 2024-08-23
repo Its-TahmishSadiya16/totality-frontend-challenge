@@ -1,0 +1,35 @@
+.checkout-page {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.checkout-page h2 {
+    text-align: center;
+}
+
+.checkout-page ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.checkout-page li {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.checkout-page button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.checkout-page button:hover {
+    background-color: #0056b3;
+}
